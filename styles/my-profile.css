@@ -1,0 +1,84 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: rgba(255, 217, 0, 0.726);
+}
+
+main {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px;
+}
+
+h1, h2 {
+    color: #2a4d8f;
+    margin-top: 0;
+}
+
+#profile-section {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border: 3px solid darkgoldenrod;
+}
+
+.btn {
+  
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  background-color: rgba(255, 217, 0, 0.726);
+  
+  font-size: 0.8rem;
+  cursor: pointer;
+    margin: 12px 0;
+  width: 25%;
+  transition: transform 0.2s ease;
+}
+
+.btn a {
+    text-decoration: none;
+ color: black;
+}
+
+.btn:hover {
+      background-color: darkgoldenrod;
+  transform: scale(1.1);
+}
+
+section {
+    margin-bottom: 28px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+#footer-section {
+    text-align: center;
+    font-size: 0.95em;
+    color: #666;
+    margin-top: 32px;
+}
+
+#footer-section a {
+    color: #2a4d8f;
+    text-decoration: none;
+}
+
+#footer-section a:hover {
+    text-decoration: underline;
+}

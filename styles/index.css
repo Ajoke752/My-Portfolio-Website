@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+#left-sidebar {
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#left-sidebar h4 {
+  color: rgba(255, 217, 0, 0.726);
+  margin-bottom: 10px;
+}
+#left-sidebar p {
+  width: 50%;
+  font-size: 32px;
+  font: 3em sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#btn-container {
+  display: flex;
+ margin-top: 20px;
+  flex-direction: row;
+}
+
+.btn {
+  cursor: pointer;
+  height: 40px;
+  font-size: 0.8em;
+  font-weight: bold;
+  border: none;
+}
+#btn-container a {
+  text-decoration: none;
+  padding: 20px;
+}
+#about-link {
+  background-color: rgba(255, 217, 0, 0.726);
+  color: white;
+  border: 2px solid rgba(255, 217, 0, 0.644);
+  width: 200px;
+}
+#contact-link {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(255, 217, 0, 0.644);
+}
+#btn-container a:hover {
+  background-color: darkgoldenrod;
+  border: 2px solid darkgoldenrod;
+}
+#right-sidebar {
+  width: 50%;
+  background-color: rgba(255, 217, 0, 0.726);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#right-sidebar img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
