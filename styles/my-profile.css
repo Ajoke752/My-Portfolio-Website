@@ -14,6 +14,8 @@ main {
     border-radius: 12px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
     padding: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2 {
@@ -62,11 +64,41 @@ h1, h2 {
 section {
     margin-bottom: 28px;
 }
+#skills-projects-section,#education-experience-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  
+}
+#skills-section, #projects-section {
+    margin-bottom: 20px;
+}
+#back-section {
+    text-align: center;
+}
 
 ul {
     padding-left: 20px;
 }
 
+li a {
+    color: #2a4d8f;
+    text-decoration: none;
+    cursor: pointer;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+p a {
+    color: #2a4d8f;
+    text-decoration: none;
+    cursor: pointer;
+}
+p a:hover {
+    text-decoration: underline;
+}
 #footer-section {
     text-align: center;
     font-size: 0.95em;
